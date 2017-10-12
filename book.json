@@ -1,6 +1,10 @@
 {
   "plugins": [
-    "-sharing"
+    "-sharing",
+    "sharing-plus",
+    "include-codeblock",
+    "-search",
+    "search-pro"
   ],
   "pluginsConfig": {
     "sharing": {
@@ -31,9 +35,14 @@
         "pocket",
         "stumbleupon"
       ]
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "include-codeblock": {
+      "template": "ace",
+      "unindent": true,
+      "edit": false
     }
-  },
-  "theme-default": {
-    "showLevel": true
   }
 }
