@@ -1,6 +1,6 @@
+# JS中 map, filter, some, every, forEach, for in, for of 用法总结
+
 ## 1.map
-
-
 
 有返回值，返回一个新的数组，每个元素为调用func的结果。
 
