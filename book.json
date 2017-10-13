@@ -23,8 +23,7 @@
     "toggle-chapters",
     "sectionx",
     "ace",
-    "anchor-navigation-ex",
-    "anchors"
+    "anchor-navigation-ex"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -41,6 +40,11 @@
     },
     "theme-default": {
       "showLevel": false
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
     }
   }
 }
