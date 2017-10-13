@@ -12,11 +12,12 @@
     "-sharing",
     "-search",
     "search-pro",
-    "edit-link", 
+    "edit-link",
     "github",
     "advanced-emoji",
     "katex",
     "splitter",
+    "tbfed-pagefooter",
     "toggle-chapters",
     "sectionx",
     "ace"
@@ -28,6 +29,11 @@
     },
     "github": {
       "url": "https://github.com/petersmu"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy ho.ha.cn 2016",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "theme-default": {
       "showLevel": true
