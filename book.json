@@ -1,48 +1,37 @@
 {
   "plugins": [
     "-sharing",
-    "sharing-plus",
-    "include-codeblock",
     "-search",
-    "search-pro"
+    "search-pro",
+    "edit-link",
+    "theme-vuejs",
+    "github",
+    "advanced-emoji",
+    "katex",
+    "splitter",
+    "toggle-chapters",
+    "sectionx",
+    "ace"
   ],
   "pluginsConfig": {
-    "sharing": {
-      "douban": false,
-      "facebook": true,
-      "google": false,
-      "hatenaBookmark": false,
-      "instapaper": false,
-      "line": false,
-      "linkedin": true,
-      "messenger": false,
-      "pocket": true,
-      "qq": true,
-      "qzone": false,
-      "stumbleupon": false,
-      "twitter": true,
-      "viber": false,
-      "vk": false,
-      "weibo": true,
-      "whatsapp": false,
-      "all": [
-        "facebook",
-        "google",
-        "twitter",
-        "weibo",
-        "instapaper",
-        "linkedin",
-        "pocket",
-        "stumbleupon"
-      ]
+    "author": "liuxuan",
+    "language": "zh-hans",
+    "styles": {
+      "website": "styles/website.css",
+      "ebook": "styles/ebook.css",
+      "pdf": "styles/pdf.css",
+      "mobi": "styles/mobi.css",
+      "epub": "styles/epub.css"
+    },
+    "edit-link": {
+      "base": "https://github.com/petersmu/iLeo",
+      "label": "编辑此页面"
+    },
+    "github": {
+      "url": "https://github.com/petersmu"
     },
     "theme-default": {
       "showLevel": true
-    },
-    "include-codeblock": {
-      "template": "ace",
-      "unindent": true,
-      "edit": false
     }
   }
 }
